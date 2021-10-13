@@ -6,7 +6,7 @@ services:
         restart: always
         environment:
           MYSQL_ROOT_PASSWORD: MyDBRoot123
-          MYSQL_DATABASE: cloud_computing
+          MYSQL_DATABASE: together
           MYSQL_USER: php
           MYSQL_PASSWORD: php
         networks:
